@@ -1,0 +1,39 @@
+[
+{
+"productid":1,
+"productname":"Vivo",
+"description":"VivoPro12",
+"price":40000.00,
+"starrating":4.8	
+},
+{
+	"productid":2,
+"productname":"OnePlus",
+"description":"OnePlus9Pro",
+"price":70000.00,
+"starrating":4.5
+},
+{
+	"productid":3,
+"productname":"Sasmung",
+"description":"GalaxyNote12",
+"price":50000.00,
+"starrating":4.1
+},
+
+{
+	"productid":4,
+"productname":"Oneplus",
+"description":"OnePlus8Pro",
+"price":40000.00,
+"starrating":4.7
+},
+{
+	"productid":5,
+"productname":"Oneplus",
+"description":"OnePlus6Pro",
+"price":50000.00,
+"starrating":4.5	
+}
+
+]
