@@ -45,9 +45,9 @@
 
 <scm>
 
-<connection>scm:git:git@github.com:Vijayalakshmi-shiva/devops-springboot.git</connection>
+<connection>scm:git:git@github.com:https://github.com/Vijayalakshmi-shiva/devops-springboot.git</connection>
 
-<developerConnection>scm:git:git@github.com:Vijayalakshmi-shiva/devops-springboot.git</developerConnection>
+<developerConnection>scm:git:git@github.com:https://github.com/Vijayalakshmi-shiva/devops-springboot.git</developerConnection>
 
 <url>git@github.com:Vijayalakshmi-shiva/devops-springboot.git</url>
 
