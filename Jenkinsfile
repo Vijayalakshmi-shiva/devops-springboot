@@ -40,7 +40,7 @@ node{
      
  stage('Deploy'){
  
- sh 'curl -u admin:admin -T target/**.war "http://localhost:7080/manager/text/deploy?path=/ibmdevops1&update=true'
+ sh 'curl -u admin:admin -T target/**.war "http://localhost:7080/manager/text/deploy?path=/ibmdevops1&update=true"'
  }
  stage('Smoke Test'){
  sh "curl --retry-delay 10 --retry 5 http://localhost:7080/ibmdevops1/api/v1/products"
