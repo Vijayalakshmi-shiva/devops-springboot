@@ -8,7 +8,7 @@ node {
       if (isUnix()) {
          sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean package"
       } else {
-         bat(/"${mvnHome}/bin/mvn" -Dmaven.test.failure.ignore clean package/)
+         bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
       }
    }
    stage('Unit Test') {
@@ -19,14 +19,14 @@ node {
      if (isUnix()) {
         sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean verify"
      } else {
-        bat(/"${mvnHome}/bin/mvn" -Dmaven.test.failure.ignore clean verify/)
+        bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean verify/)
      }
    }
    stage('Sonar') {
       if (isUnix()) {
          sh "'${mvnHome}/bin/mvn' sonar:sonar"
       } else {
-         bat(/"${mvnHome}/bin/mvn" sonar:sonar/)
+         bat(/"${mvnHome}\bin\mvn" sonar:sonar/)
       }
    }
 stage('Deploy'){
