@@ -2,7 +2,7 @@ node {
    def mvnHome
    stage('Prepare') {
       git url: 'https://github.com/Vijayalakshmi-shiva/devops-springboot.git', branch: 'develop'
-      mvnHome = tool 'mvn'
+      mvnHome = tool 'maven'
    }
    stage('Build') {
       if (isUnix()) {
