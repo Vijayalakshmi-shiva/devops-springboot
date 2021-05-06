@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>devops-spring-boot</groupId>
 	<artifactId>devops-spring-boot</artifactId>
-	<version>0.1.10-SNAPSHOT</version>
+	<version>0.1.18-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>devops-spring-boot</name>
 	<description>Demo project for Spring Boot</description>
@@ -113,6 +113,11 @@
 
 </configuration>
 
+</plugin>
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-surefire-plugin</artifactId>
+ 
 </plugin>
 <plugin>
                 <groupId>org.jacoco</groupId>
