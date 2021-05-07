@@ -26,7 +26,7 @@ import com.myapp.spring.repository.Productrepository;
 //This is a class which exposes Rest API's 
 @RestController
 @RequestMapping("/api/v1/products")
-public class Productapi {
+public class Productapi{
 
 	//Dependency Injection
 	@Autowired
